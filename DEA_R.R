@@ -23,9 +23,7 @@ data.frame(origin_bizpl_cd=data[,c('origin_bizpl_cd')],type=data[,c('type')],eff
 
 
 
-data2=data[data[['origin_bizpl_cd']] %in%  c('V6V49','V7C44',  'V6N68',  'V6K96', 'V7W44',  'V7Y42', 'V7W68', 
-                                             'V7Q63',  'V6U42',  'V6Z88','V6N97',   'V8G67',   'V8M38',  'V8K38', 
-                                             'V8K45', 'V8F92',  'V8F67',  'V8Q68',  'V8M82', 'V8H35','V8A29', 'V8K67'),]
+data2=data[data[['origin_bizpl_cd']] %in%  c('#대상리스트'),]
 
 
 x2<- as.matrix(data2[,c('rif_goodsn','days')])
