@@ -27,7 +27,7 @@ warnings.filterwarnings('ignore')
 # In[252]:
 
 
-group_amt=pd.read_excel('D:/자료/업무/표준진열/22년_유형_점별대분류매출.xlsx')
+group_amt=pd.read_excel('D:/자료/업무/표준진열/group_amt.xlsx')
 group_amt.head(3)
 
 
@@ -40,7 +40,7 @@ group_amt[group_amt['GROUP']=='B']
 # In[296]:
 
 
-cls1_amt=pd.read_excel('D:/자료/업무/표준진열/22년_유형_점별중분류매출.xlsx')
+cls1_amt=pd.read_excel('D:/자료/업무/표준진열/cls1_amd2.xlsx')
 cls1_amt.head(3)
 
 
